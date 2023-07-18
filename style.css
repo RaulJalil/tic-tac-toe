@@ -1,0 +1,17 @@
+#box {
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    margin: 1em;
+    transition: 0.4s ease;
+}
+
+#box:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+#world {
+    display:flex;
+    flex-wrap:wrap
+}
